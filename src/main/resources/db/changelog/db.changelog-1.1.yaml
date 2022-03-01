@@ -1,0 +1,24 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: galushka
+      comment: "Insert in ticket"
+      changes:
+        - insert:
+            tableName: ticket
+            columns:
+              - column:
+                  name: code
+                  value: "SERVICE"
+              - column:
+                  name: name
+                  value: "Сервис"
+        - insert:
+            tableName: ticket
+            columns:
+              - column:
+                  name: code
+                  value: "MENTORING"
+              - column:
+                  name: name
+                  value: "НАСТАВНИЧЕСТВО"

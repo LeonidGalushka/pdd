@@ -1,0 +1,13 @@
+
+
+### IntelliJ IDEA ###
+.mvn
+target
+HELP.md
+mvnw.cmd
+mvnw
+pdd.iml
+.idea
+*.iws
+*.iml
+*.ipr
