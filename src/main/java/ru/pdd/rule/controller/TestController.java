@@ -7,16 +7,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.pdd.rule.helpers.JsonParser;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/question")
-public class QuestionController {
-
+@RequestMapping("/test")
+public class TestController {
     @GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<?> getAllQuestions() {
-        return new ResponseEntity<>(JsonParser.getAllQuestion(), HttpStatus.OK);
+    public ResponseEntity<?> getAllRules() {
+        return new ResponseEntity<>("Imad Loh", HttpStatus.OK);
     }
-
 }

@@ -39,32 +39,6 @@ databaseChangeLog:
                   type: varchar(1000)
                   constraints:
                     nullable: false
-#  - changeSet:
-#      id: 2
-#      author: galushka
-#      comment: Create table section_pdd
-#      changes:
-#        - createTable:
-#            tableName: section_pdd
-#            columns:
-#              - column:
-#                  name: id
-#                  type: bigint
-#                  autoIncrement: true
-#                  constraints:
-#                    primaryKey: true
-#                    nullable: false
-#              - column:
-#                  name: name
-#                  type: varchar(100)
-#                  constraints:
-#                    nullable: false
-#              - column:
-#                  name: rule_id
-#                  type: int
-#                  constraints:
-#                    foreignKeyName: "fk_chapter_rules"
-#                    references: rule(id)
 
 
 
