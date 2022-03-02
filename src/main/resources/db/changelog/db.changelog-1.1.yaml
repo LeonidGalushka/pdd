@@ -2,23 +2,70 @@ databaseChangeLog:
   - changeSet:
       id: 1
       author: galushka
-      comment: "Insert in ticket"
+      comment: "Insert in rule"
       changes:
         - insert:
-            tableName: ticket
+            tableName: rule
             columns:
               - column:
-                  name: code
-                  value: "SERVICE"
+                  name: title
+                  value: "Раздел 1 ПДД"
               - column:
                   name: name
-                  value: "Сервис"
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Остановка"
+              - column:
+                  name: description
+                  value: "«Остановка» - преднамеренное прекращение движения транспортного средства на время до 5 минут, а также на большее, если это необходимо для посадки или высадки пассажиров либо загрузки или разгрузки транспортного средства. Знак 3.27 \"Остановка запрещена\" не разрешает преднамеренное прекращение движения."
+  - changeSet:
+      id: 2
+      author: galushka
+      comment: "Insert in rule"
+      changes:
         - insert:
-            tableName: ticket
+            tableName: rule
             columns:
               - column:
-                  name: code
-                  value: "MENTORING"
+                  name: title
+                  value: "Раздел 1 ПДД"
               - column:
                   name: name
-                  value: "НАСТАВНИЧЕСТВО"
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "стоянка"
+              - column:
+                  name: description
+                  value: "\"Стоянка\" - преднамеренное прекращение движения транспортного средства на время более 5 минут по причинам, не связанным с посадкой или высадкой пассажиров либо загрузкой или разгрузкой транспортного средства."
+  - changeSet:
+      id: 3
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Дорога"
+              - column:
+                  name: description
+                  value: "«Дорога» - это, обустроенная или приспособленная и используемая для движения транспортных средств, полоса земли, либо поверхность искусственного сооружения.Дорога включает в себя одну или несколько проезжих частей, а также трамвайные пути, тротуары, обочины, и разделительные полосы (вставка)."
+

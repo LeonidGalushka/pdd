@@ -7,8 +7,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.pdd.rule.error.exception.ParserFileException;
 import ru.pdd.rule.helpers.JsonParser;
+import ru.pdd.rule.model.Rule;
+import ru.pdd.rule.repository.RuleRepository;
+
+import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -19,4 +22,15 @@ public class QuestionController {
     public ResponseEntity<?> getAllQuestions() {
         return new ResponseEntity<>(JsonParser.getAllQuestion(), HttpStatus.OK);
     }
+
+    private final RuleRepository ruleRepository;
+
+
+    @GetMapping(value = "/a", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<?> test() {
+
+        return null;
+    }
+
+
 }
