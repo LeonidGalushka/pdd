@@ -69,3 +69,1361 @@ databaseChangeLog:
                   name: description
                   value: "«Дорога» - это, обустроенная или приспособленная и используемая для движения транспортных средств, полоса земли, либо поверхность искусственного сооружения.Дорога включает в себя одну или несколько проезжих частей, а также трамвайные пути, тротуары, обочины, и разделительные полосы (вставка)."
 
+  - changeSet:
+      id: 4
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Автопоезд"
+              - column:
+                  name: description
+                  value: "Автопоезд - механическое транспортное средство, сцепленное с прицепом (прицепами)."
+  - changeSet:
+      id: 5
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Велосипед"
+              - column:
+                  name: description
+                  value: "Велосипед - транспортное средство, кроме инвалидных колясок, которое имеет по крайней мере два колеса и приводится в движение как правило мускульной энергией лиц, находящихся на этом транспортном средстве, в частности при помощи педалей или рукояток, и может также иметь электродвигатель номинальной максимальной мощностью в режиме длительной нагрузки, не превышающей 0,25 кВт, автоматически отключающийся на скорости более 25 км/ч."
+  - changeSet:
+      id: 6
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Велосипедист"
+              - column:
+                  name: description
+                  value: "Велосипед - лицо, управляющее велосипедом."
+  - changeSet:
+      id: 7
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Велосипедная дорожка"
+              - column:
+                  name: description
+                  value: "Велосипедная дорожка - конструктивно отделенный от проезжей части и тротуара элемент дороги (либо отдельная дорога), предназначенный для движения велосипедистов и обозначенный знаком 4.4.1."
+  - changeSet:
+      id: 8
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Велосипедная зона"
+              - column:
+                  name: description
+                  value: "Велосипедная зона  - территория, предназначенная для движения велосипедистов, начало и конец которой обозначены соответственно знаками 5.33.1 и 5.34.1."
+  - changeSet:
+      id: 9
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Водитель"
+              - column:
+                  name: description
+                  value: "Водитель - лицо, управляющее каким-либо транспортным средством, погонщик, ведущий по дороге вьючных, верховых животных или стадо. К водителю приравнивается обучающий вождению."
+  - changeSet:
+      id: 10
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Вынужденная остановка"
+              - column:
+                  name: description
+                  value: "Вынужденная остановка - прекращение движения транспортного средства из-за его технической неисправности или опасности, создаваемой перевозимым грузом, состоянием водителя (пассажира) или появлением препятствия на дороге."
+  - changeSet:
+      id: 11
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Гибридный автомобиль"
+              - column:
+                  name: description
+                  value: "Гибридный автомобиль - транспортное средство, имеющее не менее 2 различных преобразователей энергии (двигателей) и 2 различных (бортовых) систем аккумулирования энергии для целей приведения в движение транспортного средства."
+  - changeSet:
+      id: 12
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Главная дорога"
+              - column:
+                  name: description
+                  value: "Главная дорога - дорога, обозначенная знаками 2.1, 2.3.1 - 2.3.7 или 5.1, по отношению к пересекаемой (примыкающей), или дорога с твердым покрытием (асфальто- и цементобетон, каменные материалы и тому подобное) по отношению к грунтовой, либо любая дорога по отношению к выездам с прилегающих территорий. Наличие на второстепенной дороге непосредственно перед перекрестком участка с покрытием не делает ее равной по значению с пересекаемой."
+  - changeSet:
+      id: 13
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Дневные ходовые огни"
+              - column:
+                  name: description
+                  value: "Дневные ходовые огни - внешние световые приборы, предназначенные для улучшения видимости движущегося транспортного средства спереди в светлое время суток."
+  - changeSet:
+      id: 14
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Дорожное движение"
+              - column:
+                  name: description
+                  value: "Дорожное движение - совокупность общественных отношений, возникающих в процессе перемещения людей и грузов с помощью транспортных средств или без таковых в пределах дорог."
+  - changeSet:
+      id: 15
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Дорожно-транспортное происшествие"
+              - column:
+                  name: description
+                  value: "Дорожно-транспортное происшествие  - событие, возникшее в процессе движения по дороге транспортного средства и с его участием, при котором погибли или ранены люди, повреждены транспортные средства, сооружения, грузы либо причинен иной материальный ущерб."
+  - changeSet:
+      id: 16
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Железнодорожный переезд"
+              - column:
+                  name: description
+                  value: "Железнодорожный переезд - пересечение дороги с железнодорожными путями на одном уровне."
+  - changeSet:
+      id: 17
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Маршрутное транспортное средство"
+              - column:
+                  name: description
+                  value: "Маршрутное транспортное средство - транспортное средство общего пользования (автобус, троллейбус, трамвай), предназначенное для перевозки по дорогам людей и движущееся по установленному маршруту с обозначенными местами остановок."
+  - changeSet:
+      id: 18
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Механическое транспортное средство"
+              - column:
+                  name: description
+                  value: "Механическое транспортное средство - транспортное средство, приводимое в движение двигателем. Термин распространяется также на любые тракторы и самоходные машины."
+  - changeSet:
+      id: 19
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Мопед"
+              - column:
+                  name: description
+                  value: "Мопед - двух- или трехколесное механическое транспортное средство, максимальная конструктивная скорость которого не превышает 50 км/ч, имеющее двигатель внутреннего сгорания с рабочим объемом, не превышающим 50 куб. см, или электродвигатель номинальной максимальной мощностью в режиме длительной нагрузки более 0,25 кВт и менее 4 кВт. К мопедам приравниваются квадрициклы, имеющие аналогичные технические характеристики."
+  - changeSet:
+      id: 20
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Мотоцикл"
+              - column:
+                  name: description
+                  value: "Мотоцикл - двухколесное механическое транспортное средство с боковым прицепом или без него, рабочий объем двигателя которого (в случае двигателя внутреннего сгорания) превышает 50 куб. см или максимальная конструктивная скорость (при любом двигателе) превышает 50 км/ч. К мотоциклам приравниваются трициклы, а также квадрициклы с мотоциклетной посадкой или рулем мотоциклетного типа, имеющие ненагруженную массу, не превышающую 400 кг (550 кг для транспортных средств, предназначенных для перевозки грузов) без учета массы аккумуляторов (в случае электрических транспортных средств), и максимальную эффективную мощность двигателя, не превышающую 15 кВт."
+  - changeSet:
+      id: 21
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Населенный пункт"
+              - column:
+                  name: description
+                  value: "Населенный пункт  - застроенная территория, въезды на которую и выезды с которой обозначены знаками 5.23.1 - 5.26."
+  - changeSet:
+      id: 22
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Обгон"
+              - column:
+                  name: description
+                  value: "Обгон - опережение одного или нескольких транспортных средств, связанное с выездом на полосу (сторону проезжей части), предназначенную для встречного движения, и последующим возвращением на ранее занимаемую полосу (сторону проезжей части)."
+  - changeSet:
+      id: 23
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Обочина"
+              - column:
+                  name: description
+                  value: "Обочина - элемент дороги, примыкающий непосредственно к проезжей части на одном уровне с ней, отличающийся типом покрытия или выделенный с помощью разметки 1.2, используемый для движения, остановки и стоянки в соответствии с Правилами."
+  - changeSet:
+      id: 24
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Обучающий вождению"
+              - column:
+                  name: description
+                  value: "Обучающий вождению - педагогический работник организации, осуществляющей образовательную деятельность и реализующей основные программы профессионального обучения водителей транспортных средств соответствующих категорий и подкатегорий, квалификация которого отвечает квалификационным требованиям, указанным в квалификационных справочниках, и (или) профессиональным стандартам (при наличии), обучающий управлению транспортным средством."
+  - changeSet:
+      id: 25
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Обучающийся вождению"
+              - column:
+                  name: description
+                  value: "Обучающийся вождению - лицо, проходящее в установленном порядке соответствующее профессиональное обучение в организации, осуществляющей образовательную деятельность и реализующей основные программы профессионального обучения водителей транспортных средств соответствующих категорий и подкатегорий, имеющее первоначальные навыки управления транспортным средством и освоившее требования Правил."
+  - changeSet:
+      id: 26
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Ограниченная видимость"
+              - column:
+                  name: description
+                  value: "Ограниченная видимость - видимость водителем дороги в направлении движения, ограниченная рельефом местности, геометрическими параметрами дороги, растительностью, строениями, сооружениями или иными объектами, в том числе транспортными средствами."
+  - changeSet:
+      id: 27
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Опасность для движения"
+              - column:
+                  name: description
+                  value: "Опасность для движения - ситуация, возникшая в процессе дорожного движения, при которой продолжение движения в том же направлении и с той же скоростью создает угрозу возникновения дорожно-транспортного происшествия."
+  - changeSet:
+      id: 28
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Опасный груз"
+              - column:
+                  name: description
+                  value: "Опасный груз - вещества, изделия из них, отходы производственной и иной хозяйственной деятельности, которые в силу присущих им свойств могут при перевозке создать угрозу для жизни и здоровья людей, нанести вред окружающей среде, повредить или уничтожить материальные ценности."
+  - changeSet:
+      id: 29
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Опережение"
+              - column:
+                  name: description
+                  value: "Опережение - движение транспортного средства со скоростью, большей скорости попутного транспортного средства."
+  - changeSet:
+      id: 30
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Организованная перевозка группы детей"
+              - column:
+                  name: description
+                  value: "Организованная перевозка группы детей - перевозка в автобусе, не относящемся к маршрутному транспортному средству, группы детей численностью 8 и более человек, осуществляемая без их родителей или иных законных представителей."
+  - changeSet:
+      id: 31
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Организованная транспортная колонна"
+              - column:
+                  name: description
+                  value: "Организованная транспортная колонна - группа из трех и более механических транспортных средств, следующих непосредственно друг за другом по одной и той же полосе движения с постоянно включенными фарами в сопровождении головного транспортного средства с нанесенными на наружные поверхности специальными цветографическими схемами и включенными проблесковыми маячками синего и красного цветов."
+  - changeSet:
+      id: 32
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Организованная пешая колонна"
+              - column:
+                  name: description
+                  value: "Организованная пешая колонна - обозначенная в соответствии с пунктом 4.2 Правил группа людей, совместно движущихся по дороге в одном направлении."
+  - changeSet:
+      id: 33
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Остановка"
+              - column:
+                  name: description
+                  value: "Остановка - преднамеренное прекращение движения транспортного средства на время до 5 минут, а также на большее, если это необходимо для посадки или высадки пассажиров либо загрузки или разгрузки транспортного средства."
+  - changeSet:
+      id: 34
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Островок безопасности"
+              - column:
+                  name: description
+                  value: "Островок безопасности - элемент обустройства дороги, разделяющий полосы движения (в том числе полосы для велосипедистов), а также полосы движения и трамвайные пути, конструктивно выделенный бордюрным камнем над проезжей частью дороги или обозначенный техническими средствами организации дорожного движения и предназначенный для остановки пешеходов при переходе проезжей части дороги. К островку безопасности может относиться часть разделительной полосы, через которую проложен пешеходный переход."
+  - changeSet:
+      id: 35
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Парковка (парковочное место)"
+              - column:
+                  name: description
+                  value: "Парковка (парковочное место) - специально обозначенное и при необходимости обустроенное и оборудованное место, являющееся в том числе частью автомобильной дороги и (или) примыкающее к проезжей части и (или) тротуару, обочине, эстакаде или мосту либо являющееся частью подэстакадных или подмостовых пространств, площадей и иных объектов улично-дорожной сети, зданий, строений или сооружений и предназначенное для организованной стоянки транспортных средств на платной основе или без взимания платы по решению собственника или иного владельца автомобильной дороги, собственника земельного участка либо собственника соответствующей части здания, строения или сооружения."
+  - changeSet:
+      id: 36
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Пассажир"
+              - column:
+                  name: description
+                  value: "Пассажир - лицо, кроме водителя, находящееся в транспортном средстве (на нем), а также лицо, которое входит в транспортное средство (садится на него) или выходит из транспортного средства (сходит с него)."
+  - changeSet:
+      id: 37
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Перекресток"
+              - column:
+                  name: description
+                  value: "Перекресток - место пересечения, примыкания или разветвления дорог на одном уровне, ограниченное воображаемыми линиями, соединяющими соответственно противоположные, наиболее удаленные от центра перекрестка начала закруглений проезжих частей. Не считаются перекрестками выезды с прилегающих территорий."
+  - changeSet:
+      id: 38
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Перестроение"
+              - column:
+                  name: description
+                  value: "Перестроение - выезд из занимаемой полосы или занимаемого ряда с сохранением первоначального направления движения."
+  - changeSet:
+      id: 39
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Пешеход"
+              - column:
+                  name: description
+                  value: "Пешеход - лицо, находящееся вне транспортного средства на дороге либо на пешеходной или велопешеходной дорожке и не производящее на них работу. К пешеходам приравниваются лица, передвигающиеся в инвалидных колясках, ведущие велосипед, мопед, мотоцикл, везущие санки, тележку, детскую или инвалидную коляску, а также использующие для передвижения роликовые коньки, самокаты и иные аналогичные средства."
+  - changeSet:
+      id: 40
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Пешеходная дорожка"
+              - column:
+                  name: description
+                  value: "Пешеходная дорожка - обустроенная или приспособленная для движения пешеходов полоса земли либо поверхность искусственного сооружения, обозначенная знаком 4.5.1."
+  - changeSet:
+      id: 41
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Пешеходная зона"
+              - column:
+                  name: description
+                  value: "Пешеходная зона - территория, предназначенная для движения пешеходов, начало и конец которой обозначены соответственно знаками 5.33 и 5.34."
+  - changeSet:
+      id: 42
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Пешеходная и велосипедная дорожка (велопешеходная дорожка)"
+              - column:
+                  name: description
+                  value: "Пешеходная и велосипедная дорожка (велопешеходная дорожка) - конструктивно отделенный от проезжей части элемент дороги (либо отдельная дорога), предназначенный для раздельного или совместного с пешеходами движения велосипедистов и обозначенный знаками 4.5.2 - 4.5.7."
+  - changeSet:
+      id: 43
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Пешеходный переход"
+              - column:
+                  name: description
+                  value: "Пешеходный переход - участок проезжей части, трамвайных путей, обозначенный знаками 5.19.1, 5.19.2 и (или) разметкой 1.14.1 и 1.14.2 <*> и выделенный для движения пешеходов через дорогу. При отсутствии разметки ширина пешеходного перехода определяется расстоянием между знаками 5.19.1 и 5.19.2."
+  - changeSet:
+      id: 44
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Полоса движения"
+              - column:
+                  name: description
+                  value: "Полоса движения - любая из продольных полос проезжей части, обозначенная или не обозначенная разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд."
+  - changeSet:
+      id: 45
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Полоса для велосипедистов"
+              - column:
+                  name: description
+                  value: "Полоса для велосипедистов - полоса проезжей части, предназначенная для движения на велосипедах и мопедах, отделенная от остальной проезжей части горизонтальной разметкой и обозначенная знаком 5.14.2."
+  - changeSet:
+      id: 46
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Преимущество (приоритет)"
+              - column:
+                  name: description
+                  value: "Преимущество (приоритет) - право на первоочередное движение в намеченном направлении по отношению к другим участникам движения."
+  - changeSet:
+      id: 47
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Препятствие"
+              - column:
+                  name: description
+                  value: "Препятствие - неподвижный объект на полосе движения (неисправное или поврежденное транспортное средство, дефект проезжей части, посторонние предметы и т.п.), не позволяющий продолжить движение по этой полосе."
+  - changeSet:
+      id: 48
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Прилегающая территория"
+              - column:
+                  name: description
+                  value: "Прилегающая территория - территория, непосредственно прилегающая к дороге и не предназначенная для сквозного движения транспортных средств (дворы, жилые массивы, автостоянки, АЗС, предприятия и тому подобное). Движение по прилегающей территории осуществляется в соответствии с настоящими Правилами."
+  - changeSet:
+      id: 49
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Прицеп"
+              - column:
+                  name: description
+                  value: "Прицеп - транспортное средство, не оборудованное двигателем и предназначенное для движения в составе с механическим транспортным средством. Термин распространяется также на полуприцепы и прицепы-роспуски."
+  - changeSet:
+      id: 50
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Проезжая часть"
+              - column:
+                  name: description
+                  value: "Проезжая часть - элемент дороги, предназначенный для движения безрельсовых транспортных средств."
+  - changeSet:
+      id: 51
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Разделительная полоса"
+              - column:
+                  name: description
+                  value: "Разделительная полоса - элемент дороги, выделенный конструктивно и (или) с помощью разметки 1.2, разделяющий смежные проезжие части, а также проезжую часть и трамвайные пути и не предназначенный для движения и остановки транспортных средств."
+  - changeSet:
+      id: 52
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Разрешенная максимальная масса"
+              - column:
+                  name: description
+                  value: "Разрешенная максимальная масса - масса снаряженного транспортного средства с грузом, водителем и пассажирами, установленная предприятием-изготовителем в качестве максимально допустимой. За разрешенную максимальную массу состава транспортных средств, то есть сцепленных и движущихся как одно целое, принимается сумма разрешенных максимальных масс транспортных средств, входящих в состав."
+  - changeSet:
+      id: 53
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Регулировщик"
+              - column:
+                  name: description
+                  value: "Регулировщик - лицо, наделенное в установленном порядке полномочиями по регулированию дорожного движения с помощью сигналов, установленных Правилами, и непосредственно осуществляющее указанное регулирование. Регулировщик должен быть в форменной одежде и (или) иметь отличительный знак и экипировку. К регулировщикам относятся сотрудники полиции и военной автомобильной инспекции, а также работники дорожно-эксплуатационных служб, дежурные на железнодорожных переездах и паромных переправах при исполнении ими своих должностных обязанностей."
+  - changeSet:
+      id: 54
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Стоянка"
+              - column:
+                  name: description
+                  value: "Стоянка - преднамеренное прекращение движения транспортного средства на время более 5 минут по причинам, не связанным с посадкой или высадкой пассажиров либо загрузкой или разгрузкой транспортного средства."
+  - changeSet:
+      id: 55
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Темное время суток"
+              - column:
+                  name: description
+                  value: "Темное время суток - промежуток времени от конца вечерних сумерек до начала утренних сумерек."
+  - changeSet:
+      id: 56
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Транспортное средство"
+              - column:
+                  name: description
+                  value: "Транспортное средство - устройство, предназначенное для перевозки по дорогам людей, грузов или оборудования, установленного на нем."
+  - changeSet:
+      id: 57
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Тротуар"
+              - column:
+                  name: description
+                  value: "Тротуар - элемент дороги, предназначенный для движения пешеходов и примыкающий к проезжей части или к велосипедной дорожке либо отделенный от них газоном."
+  - changeSet:
+      id: 58
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Уступить дорогу (не создавать помех)"
+              - column:
+                  name: description
+                  value: "Уступить дорогу (не создавать помех) - требование, означающее, что участник дорожного движения не должен начинать, возобновлять или продолжать движение, осуществлять какой-либо маневр, если это может вынудить других участников движения, имеющих по отношению к нему преимущество, изменить направление движения или скорость."
+  - changeSet:
+      id: 59
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Участник дорожного движения"
+              - column:
+                  name: description
+                  value: "Участник дорожного движения - лицо, принимающее непосредственное участие в процессе движения в качестве водителя, пешехода, пассажира транспортного средства."
+  - changeSet:
+      id: 60
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Школьный автобус"
+              - column:
+                  name: description
+                  value: "Школьный автобус - специализированное транспортное средство (автобус), соответствующее требованиям к транспортным средствам для перевозки детей, установленным законодательством о техническом регулировании, и принадлежащее на праве собственности или на ином законном основании дошкольной образовательной или общеобразовательной организации."
+  - changeSet:
+      id: 61
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Электромобиль"
+              - column:
+                  name: description
+                  value: "Электромобиль - транспортное средство, приводимое в движение исключительно электрическим двигателем и заряжаемое с помощью внешнего источника электроэнергии."
+  - changeSet:
+      id: 62
+      author: galushka
+      comment: "Insert in rule"
+      changes:
+        - insert:
+            tableName: rule
+            columns:
+              - column:
+                  name: title
+                  value: "Раздел 1 ПДД"
+              - column:
+                  name: name
+                  value: "Общие положения ПДД"
+              - column:
+                  name: type
+                  value: "определение"
+              - column:
+                  name: content
+                  value: "Недостаточная видимость"
+              - column:
+                  name: description
+                  value: "Недостаточная видимость - видимость дороги менее 300 м в условиях тумана, дождя, снегопада и тому подобного, а также в сумерки."
+
