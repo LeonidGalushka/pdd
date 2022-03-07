@@ -1,1 +1,1 @@
-web: java -jar target/pdd-0.0.2-SNAPSHOT.jar
+web: java -jar target/pdd-0.0.3-SNAPSHOT.jar
