@@ -7,8 +7,8 @@ import java.util.List;
 
 @Data
 public class QuestionResponse {
-    private String title;
-    private String ticketNumber;
+    private Long title;
+    private Long ticketNumber;
     private byte[] image;
     private String question;
     private List<Answer> answers;

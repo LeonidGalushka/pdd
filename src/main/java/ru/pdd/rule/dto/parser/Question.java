@@ -8,9 +8,9 @@ import java.util.List;
 
 @Data
 public class Question {
-    private String title;
+    private Long title;
     @JsonAlias("ticket_number")
-    private String ticketNumber;
+    private Long ticketNumber;
     private String image;
     private String question;
     private List<Answer> answers;
