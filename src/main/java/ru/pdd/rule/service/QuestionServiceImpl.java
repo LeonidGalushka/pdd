@@ -26,7 +26,7 @@ public class QuestionServiceImpl implements QuestionService {
         return questionResponses;
     }
 
-    public List<QuestionResponse> getTicketForId(Long id) {
+    public List<QuestionResponse> getTicketForId(Long id) throws ParserFileException {
         return getAllQuestions()
                 .stream()
                 .filter(ticket -> ticket.getTicketNumber().equals(id))

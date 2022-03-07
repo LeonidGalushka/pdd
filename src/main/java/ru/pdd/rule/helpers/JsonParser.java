@@ -2,16 +2,9 @@ package ru.pdd.rule.helpers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.experimental.UtilityClass;
-import ru.pdd.rule.PddApplication;
 import ru.pdd.rule.dto.parser.Question;
 import ru.pdd.rule.error.exception.ParserFileException;
 
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 

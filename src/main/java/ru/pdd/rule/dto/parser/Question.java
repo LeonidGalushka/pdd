@@ -19,12 +19,4 @@ public class Question {
     @JsonAlias("answer_tip")
     private String answerTip;
     private String topic;
-
-    /*@Data
-    public static class Answer {
-        @JsonAlias("answer_text")
-        private String answerText;
-        @JsonAlias("is_correct")
-        private boolean isCorrect;
-    }*/
 }

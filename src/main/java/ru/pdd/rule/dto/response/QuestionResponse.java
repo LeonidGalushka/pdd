@@ -15,10 +15,4 @@ public class QuestionResponse {
     private String correctAnswer;
     private String answerTip;
     private String topic;
-
-/*    @Data
-    public static class Answer {
-        private String answerText;
-        private boolean isCorrect;
-    }*/
 }
