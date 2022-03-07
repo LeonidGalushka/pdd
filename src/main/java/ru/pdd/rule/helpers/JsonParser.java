@@ -2,10 +2,15 @@ package ru.pdd.rule.helpers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.experimental.UtilityClass;
-import ru.pdd.rule.dto.Question;
+import ru.pdd.rule.PddApplication;
+import ru.pdd.rule.dto.parser.Question;
 import ru.pdd.rule.error.exception.ParserFileException;
 
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
@@ -17,19 +22,16 @@ public class JsonParser {
     // @Value("${path.file.rule}")
     // private String pathFile;
 
+    private String pathFile = "data/rule.txt";
+
     public List<Question> getAllQuestion() throws ParserFileException {
         try {
-            byte[] jsonData = Files.readAllBytes(Paths.get("D://pdd//src//main//resources//data//rule.txt"));
-            Question[] questions = new ObjectMapper().readValue(jsonData, Question[].class);
+            Question[] questions = new ObjectMapper()
+                    .readValue(DataFromResources.getDataFromResourcesInBytes(pathFile), Question[].class);
             return Arrays.asList(questions);
-//          return Arrays.asList(new ObjectMapper().readValue(getJsonDataForByte(), Question[].class));
         } catch (Exception ex) {
             throw new ParserFileException("error in parsing file!");
         }
     }
-
-//    private byte[] getJsonDataForByte() throws IOException {
-//        return Files.readAllBytes(Paths.get(pathFile));
-//    }
 
 }
