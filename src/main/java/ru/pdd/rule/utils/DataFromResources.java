@@ -1,4 +1,4 @@
-package ru.pdd.rule.helpers;
+package ru.pdd.rule.utils;
 
 import lombok.experimental.UtilityClass;
 import org.springframework.core.io.ClassPathResource;

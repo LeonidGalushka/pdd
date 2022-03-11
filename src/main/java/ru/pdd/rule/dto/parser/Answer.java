@@ -1,4 +1,4 @@
-package ru.pdd.rule.dto;
+package ru.pdd.rule.dto.parser;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.Data;

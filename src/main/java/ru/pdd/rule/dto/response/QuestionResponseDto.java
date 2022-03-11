@@ -1,22 +1,18 @@
-package ru.pdd.rule.dto.parser;
+package ru.pdd.rule.dto.response;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.Data;
-import ru.pdd.rule.dto.Answer;
+import ru.pdd.rule.dto.parser.Answer;
 
 import java.util.List;
 
 @Data
-public class Question {
+public class QuestionResponseDto {
     private Long title;
-    @JsonAlias("ticket_number")
     private Long ticketNumber;
-    private String image;
+    private String linkImage;
     private String question;
     private List<Answer> answers;
-    @JsonAlias("correct_answer")
     private String correctAnswer;
-    @JsonAlias("answer_tip")
     private String answerTip;
     private String topic;
 }

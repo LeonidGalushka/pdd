@@ -2,29 +2,28 @@ package ru.pdd.rule.mapping;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-import org.mapstruct.Named;
-import ru.pdd.rule.dto.parser.Question;
-import ru.pdd.rule.dto.response.QuestionResponse;
-import ru.pdd.rule.helpers.DataFromResources;
+import ru.pdd.rule.dto.parser.QuestionParsingDto;
+import ru.pdd.rule.dto.response.QuestionResponseDto;
 
 import java.util.List;
 
 @Mapper
 public interface RuleMapper {
 
-    @Mapping(source = "image", target = "image", qualifiedByName = "toImageList")
-    QuestionResponse QuestionToQuestionResponse(Question recommendationFilter);
+    // @Mapping(source = "image", target = "image", qualifiedByName = "toImageList")
+    @Mapping(source = "image", target = "linkImage")
+    QuestionResponseDto toQuestionResponseDto(QuestionParsingDto questionParsingDto);
 
-    List<QuestionResponse> QuestionToQuestionResponses(List<Question> recommendationFilter);
+    List<QuestionResponseDto> toQuestionResponseDtos(List<QuestionParsingDto> questionParsingDtos);
 
-    @Named("toImageList")
-    default byte[] toImageList(String imagesURL) {
-
-        try {
-            return DataFromResources.getDataFromResourcesInBytes(String.format("%s" + imagesURL, "data"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
+//    @Named("toImageList")
+//    default byte[] toImageList(String imagesURL) {
+//
+//        try {
+//            return DataFromResources.getDataFromResourcesInBytes(String.format("%s" + imagesURL, "data"));
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return null;
+//    }
 }

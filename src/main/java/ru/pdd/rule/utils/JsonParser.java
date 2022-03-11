@@ -1,8 +1,8 @@
-package ru.pdd.rule.helpers;
+package ru.pdd.rule.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.experimental.UtilityClass;
-import ru.pdd.rule.dto.parser.Question;
+import ru.pdd.rule.dto.parser.QuestionParsingDto;
 import ru.pdd.rule.error.exception.ParserFileException;
 
 import java.util.Arrays;
@@ -17,11 +17,11 @@ public class JsonParser {
 
     private String pathFile = "data/rule.txt";
 
-    public List<Question> getAllQuestion() throws ParserFileException {
+    public List<QuestionParsingDto> getAllQuestion() throws ParserFileException {
         try {
-            Question[] questions = new ObjectMapper()
-                    .readValue(DataFromResources.getDataFromResourcesInBytes(pathFile), Question[].class);
-            return Arrays.asList(questions);
+            QuestionParsingDto[] questionParsingDtos = new ObjectMapper()
+                    .readValue(DataFromResources.getDataFromResourcesInBytes(pathFile), QuestionParsingDto[].class);
+            return Arrays.asList(questionParsingDtos);
         } catch (Exception ex) {
             throw new ParserFileException("error in parsing file!");
         }
