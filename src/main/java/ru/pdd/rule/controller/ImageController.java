@@ -30,7 +30,7 @@ public class ImageController {
     public ResponseEntity<?> getImageForUrlPathVariable(@PathVariable("image-file") String imageFile,
                                                         @PathVariable("image-ticket") String imageTicket,
                                                         @PathVariable("image-number") String imageNumber) throws IOException {
-        String pathToImage = String.format("%s" + CreateUrl.getAllUrl(imageFile, imageTicket, imageNumber), SpecTools.SEPARATOR);
+        String pathToImage = CreateUrl.getAllUrlWithStartSep(SpecTools.SEPARATOR, imageFile, imageTicket, imageNumber);
         return okOrNoContent(imageService.getImageInByte(pathToImage));
     }
 

@@ -11,11 +11,9 @@ import java.util.List;
 @UtilityClass
 public class JsonParser {
 
-    // TODO сделать аналог этой аннотации, чтоб чз конфиг менять могли ее
-    // @Value("${path.file.rule}")
-    // private String pathFile;
-
-    private String pathFile = "data/rule.txt";
+    //private String pathFile = "data/rule.txt";
+    private final String pathFile = CreateUrl.getAllUrl(SpecTools.SEPARATOR,
+            PathResources.DATA.getTitle(), SpecTools.RULE_FILE);
 
     public List<QuestionParsingDto> getAllQuestion() throws ParserFileException {
         try {
